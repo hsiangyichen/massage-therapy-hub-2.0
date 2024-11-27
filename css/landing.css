@@ -1,0 +1,74 @@
+h1,
+h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+
+h3,
+.nav-heading,
+.footer-heading {
+  font-size: 33px;
+  font-weight: 300;
+}
+
+li {
+  list-style: none;
+}
+
+nav > ul,
+.menu-button {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+nav,
+header > div,
+footer {
+  background-color: #fff0ed;
+}
+
+.nav-heading a {
+  text-decoration: none;
+}
+
+.menu-button {
+  background-color: #5bacc3;
+  color: white;
+  border: none;
+}
+
+.discount {
+  text-align: center;
+  background-color: #393939;
+  width: 90%;
+  color: white;
+}
+
+.discount-text {
+  font-size: 45px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.discount-code {
+  font-weight: 700;
+}
+
+.price {
+  font-size: 33px;
+  font-weight: 400;
+  color: #5bacc3;
+}
+
+.icon {
+  width: 50px;
+}
+
+.product-img {
+  height: 280px;
+}
