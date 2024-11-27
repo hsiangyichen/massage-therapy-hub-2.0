@@ -16,7 +16,7 @@ li {
 }
 
 nav > ul,
-.menu-button {
+.home-button {
   font-size: 21px;
   font-weight: 400;
 }
@@ -36,7 +36,7 @@ footer {
   text-decoration: none;
 }
 
-.menu-button {
+.home-button {
   background-color: #5bacc3;
   color: white;
   border: none;
