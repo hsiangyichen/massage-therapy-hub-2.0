@@ -1,84 +1,127 @@
-h1,
-h2 {
-  font-size: 60px;
-  font-weight: 300;
-}
-
-h3,
-.nav-heading {
-  font-size: 33px;
-  font-weight: 300;
-}
-
-li {
-  list-style: none;
-}
-
-nav > ul,
-.menu-options {
-  font-size: 21px;
-  font-weight: 400;
-}
-
-p {
-  font-size: 18px;
-  font-weight: 400;
-}
-
-.product > section {
-  text-align: center;
-}
-
-.product > section:nth-child(odd) {
+.header__nav {
+  display: flex;
   background-color: #fff0ed;
 }
 
-.product > section:nth-child(even) {
-  background-color: #f7f7f7;
+.header__logo-container {
+  display: flex;
+  gap: 2px;
+  margin: 15px;
 }
 
-.product-desc {
-  font-style: italic;
-  font-size: 18px;
-  font-weight: 400;
-  width: 500px;
+.header__title {
+  font-size: 2.5rem;
 }
 
-.nav-heading a {
-  text-decoration: none;
+.header__logo {
+  width: 45px;
 }
 
-.cta-img {
+.header__menu {
+  display: flex;
+}
+
+.header__menu-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__menu-link {
+  font-size: 1.0625rem;
+  padding: 0 20px;
+}
+
+.header__menu-link-shop-now {
+  color: #5bacc3;
+}
+
+.header__menu-link:hover {
+  background-color: rgb(200, 200, 200);
+}
+
+.header__cta-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-image: url(../assets/coffee-cta.jpg);
   width: 100%;
-  height: 700px;
+  height: 40vh;
   background-position: center;
   background-size: cover;
 }
 
-.menu-title {
+.header__cta-title {
   text-align: center;
-  width: 300px;
-  height: 200px;
+  font-size: 2.875rem;
+  width: 220px;
+  height: 30%;
   background-color: #393939;
   color: white;
 }
 
-.menu-options {
-  text-align: center;
+.header__cta-options {
+  font-size: 1.0625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #393939;
   width: 100%;
+  height: 55px;
+  padding: 20px;
 }
 
-.menu-options a {
+.header__cta-options a {
+  padding: 0 20px;
+  border-left: #5bacc3 solid 3px;
   text-decoration: none;
   color: white;
 }
 
-.icon {
-  width: 50px;
+.main__product {
+  /* width: 100%; */
+  /* display: flex;
+  flex-direction: column; */
 }
 
-.price {
+.main__product > section {
+  text-align: center;
+  padding: 20px;
+}
+
+.main__product > section:nth-child(odd) {
+  background-color: #fff0ed;
+}
+
+.main__product > section:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+.main__section-title {
+  padding-bottom: 20px;
+  font-size: 2.875rem;
+}
+
+.main__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__item-title {
+  padding: 5px;
+  font-size: 1.625rem;
+}
+
+.main__item-desc {
+  font-style: italic;
+  font-size: 1rem;
+  font-weight: 400;
+  width: 430px;
+}
+
+.main__item-price {
+  padding: 5px;
+  font-size: 1rem;
   color: #5bacc3;
 }
