@@ -1,3 +1,4 @@
+/* Navigation bar */
 .header__nav {
   display: flex;
   background-color: #fff0ed;
@@ -47,7 +48,8 @@
   background-color: rgb(200, 200, 200);
 }
 
-.header__cta-img {
+/* Hero */
+.header__menu-intro-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -58,7 +60,7 @@
   background-size: cover;
 }
 
-.header__cta-title {
+.header__menu-title {
   text-align: center;
   font-size: 2.875rem;
   width: 220px;
@@ -67,7 +69,7 @@
   color: white;
 }
 
-.header__cta-options {
+.header__menu-links {
   font-size: 1.0625rem;
   display: flex;
   justify-content: center;
@@ -78,13 +80,14 @@
   padding: 20px;
 }
 
-.header__cta-options a {
+.header__menu-links a {
   padding: 0 20px;
   border-left: #5bacc3 solid 3px;
   text-decoration: none;
   color: white;
 }
 
+/* Main */
 .main__product > section {
   text-align: center;
   padding: 20px;
