@@ -1,9 +1,11 @@
+/* General Styles for Navigation, Header, and Footer */
 nav,
 header > div,
 footer {
   background-color: #fff0ed;
 }
 
+/* Navigation bar */
 .header__nav {
   display: flex;
   background-color: #fff0ed;
@@ -53,6 +55,7 @@ footer {
   background-color: rgb(200, 200, 200);
 }
 
+/* Hero Section */
 .header__hero {
   width: 100%;
   display: flex;
@@ -83,16 +86,7 @@ footer {
   width: 235px;
 }
 
-.button {
-  font-size: 1.0625rem;
-  background-color: #5bacc3;
-  color: white;
-  border: none;
-  width: 145px;
-  padding: 12px;
-  margin: 5px 0;
-}
-
+/* Main Product */
 .main__products {
   background-color: #f7f7f7;
   display: flex;
@@ -112,7 +106,7 @@ footer {
   gap: 70px;
 }
 
-.product {
+.main__product {
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -124,25 +118,26 @@ footer {
   box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
 }
 
-.product__img-container {
+.main__product__img-container {
   height: 200px;
 }
 
-.product__title {
+.main__product__title {
   font-size: 1.625rem;
 }
 
-.product__img {
+.main__product__img {
   height: 100%;
 }
 
-.product__price {
+.main__product__price {
   padding-bottom: 4px;
   font-size: 1.625rem;
   font-weight: 400;
   color: #5bacc3;
 }
 
+/* Main Discount */
 .main__discount {
   display: flex;
   flex-direction: column;
@@ -159,6 +154,18 @@ footer {
   font-weight: 400;
 }
 
+/* Button */
+.button {
+  font-size: 1.0625rem;
+  background-color: #5bacc3;
+  color: white;
+  border: none;
+  width: 145px;
+  padding: 12px;
+  margin: 5px 0;
+}
+
+/* Footer */
 .footer {
   display: flex;
   flex-direction: row;
