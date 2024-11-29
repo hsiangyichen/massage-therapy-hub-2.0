@@ -78,12 +78,6 @@
   color: white;
 }
 
-.main__product {
-  /* width: 100%; */
-  /* display: flex;
-  flex-direction: column; */
-}
-
 .main__product > section {
   text-align: center;
   padding: 20px;
