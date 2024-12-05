@@ -12,15 +12,15 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: 40px 100px;
-  gap: 300px;
+  padding: 2.5rem 6.25rem;
+  gap: 18.75rem;
 }
 
 .header__hero-content {
   display: flex;
   flex-direction: column;
-  width: 340px;
-  gap: 30px;
+  width: 21.25rem;
+  gap: 1.875rem;
 }
 
 .header__hero-title {
@@ -33,7 +33,7 @@ footer {
 }
 
 .header__hero-img {
-  width: 235px;
+  width: 14.6875rem;
 }
 
 /* Main Product */
@@ -41,9 +41,9 @@ footer {
   background-color: #f7f7f7;
   display: flex;
   flex-direction: column;
-  gap: 45px;
+  gap: 2.8125rem;
   align-items: center;
-  padding: 45px;
+  padding: 2.8125rem;
 }
 
 .main__products-title {
@@ -53,38 +53,103 @@ footer {
 .main__products-list {
   display: flex;
   flex-direction: row;
-  gap: 70px;
+  gap: 4.375rem;
 }
 
 .main__product {
   display: flex;
   flex-direction: column;
-  gap: 25px;
   align-items: center;
   background-color: white;
-  width: 260px;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+  width: 18.125rem;
+  border-radius: 0.625rem;
+  box-shadow: 0 0.3125rem 0.5625rem -0.0625rem rgba(0, 0, 0, 0.25);
 }
 
 .main__product__img-container {
-  height: 200px;
-}
-
-.main__product__title {
-  font-size: 1.625rem;
+  height: 12.5rem;
+  margin: 1.875rem;
 }
 
 .main__product__img {
   height: 100%;
 }
 
+.main__product__desc-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #fff0ed;
+  padding: 2.5rem 0.3125rem;
+  border-radius: 0.625rem;
+}
+
+.main__product__title {
+  font-size: 1.75rem;
+}
+
+.main__product__quantity {
+  font-size: 1rem;
+  color: #909090;
+}
+
 .main__product__price {
-  padding-bottom: 4px;
-  font-size: 1.625rem;
-  font-weight: 400;
+  font-size: 1.75rem;
+  font-weight: 800;
   color: #5bacc3;
+}
+
+/* we-are-different */
+.we-are-different {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20%;
+  padding: 7.5rem 3.125rem;
+}
+
+.we-are-different__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.875rem;
+  width: 30%;
+}
+
+.we-are-different__title {
+  line-height: 0.75;
+  font-size: 2.875rem;
+}
+
+.we-are-different__desc {
+  font-size: 1rem;
+}
+
+.we-are-different__icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.we-are-different__icon {
+  width: 3.125rem;
+}
+
+.we-are-different__image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff0ed;
+  width: 21.875rem;
+  height: 21.875rem;
+}
+
+.we-are-different__image {
+  width: 8.75rem;
 }
 
 /* Main Discount */
@@ -93,12 +158,12 @@ footer {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin: 165px 0;
+  margin: 10.3125rem 0;
 }
 
 .main__discount-text {
   font-size: 2.125rem;
-  padding: 30px 73px;
+  padding: 1.875rem 4.5625rem;
   background-color: #393939;
   color: white;
   font-weight: 400;
@@ -111,9 +176,9 @@ footer {
   background-color: #5bacc3;
   color: white;
   border: none;
-  width: 145px;
-  padding: 12px;
-  margin: 5px 0;
+  width: 9.0625rem;
+  padding: 0.75rem;
+  margin: 0.3125rem 0;
 }
 
 /* Footer */
@@ -121,13 +186,13 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 100px;
-  padding: 55px;
+  gap: 6.25rem;
+  padding: 3.4375rem;
 }
 
 .footer__heading {
   font-size: 1.625rem;
-  padding-bottom: 14px;
+  padding-bottom: 0.875rem;
 }
 
 .footer__text {
@@ -141,9 +206,9 @@ footer {
 .footer__social-container {
   display: flex;
   flex-direction: row;
-  gap: 6px;
+  gap: 0.375rem;
 }
 
 .footer__social-icon {
-  width: 40px;
+  width: 2.5rem;
 }

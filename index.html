@@ -14,7 +14,7 @@
   <body>
     <header class="header">
       <nav class="header__nav">
-        <div class="header__logo-container">
+        <div class="header__logo-title-container">
           <a class="header__logo-wrapper" href="/"
             ><img
               class="header__logo-img"
@@ -50,7 +50,11 @@
             Coffee is a brewed drink prepared from roasted coffee beans, the
             seeds of berries from certain Coffee species.
           </p>
-          <a class="button button--primary" href="/pages/menu.html">SHOP NOW</a>
+          <div class="button__container">
+            <a class="button button--primary" href="/pages/menu.html"
+              >SHOP NOW</a
+            >
+          </div>
         </div>
         <div class="header__hero-img-container">
           <img
@@ -73,8 +77,13 @@
                 alt="coffee beans"
               />
             </div>
-            <h3 class="main__product__title">Coffee Beans</h3>
-            <p class="main__product__price">$18.99</p>
+            <div class="main__product__desc-container">
+              <div class="main__product__desc">
+                <h3 class="main__product__title">Coffee Beans</h3>
+                <p class="main__product__quantity">Pack of 3</p>
+              </div>
+              <p class="main__product__price">$19</p>
+            </div>
           </article>
           <article class="main__product">
             <div class="main__product__img-container">
@@ -84,8 +93,13 @@
                 alt="cold brew"
               />
             </div>
-            <h3 class="main__product__title">Cold Brew</h3>
-            <p class="main__product__price">$4.99</p>
+            <div class="main__product__desc-container">
+              <div class="main__product__desc">
+                <h3 class="main__product__title">Cold Brew</h3>
+                <p class="main__product__quantity">1 can</p>
+              </div>
+              <p class="main__product__price">$5</p>
+            </div>
           </article>
           <article class="main__product">
             <div class="main__product__img-container">
@@ -95,11 +109,58 @@
                 alt="in-house brew"
               />
             </div>
-            <h3 class="main__product__title">In-house Brew</h3>
-            <p class="main__product__price">$2.99</p>
+            <div class="main__product__desc-container">
+              <div class="main__product__desc">
+                <h3 class="main__product__title">In-house Brew</h3>
+                <p class="main__product__quantity">1 cup</p>
+              </div>
+              <p class="main__product__price">$3</p>
+            </div>
           </article>
         </div>
-        <a class="button button--secondary" href="/pages/menu.html">VIEW ALL</a>
+        <div class="button__container">
+          <a class="button button--secondary" href="/pages/menu.html"
+            >VIEW ALL</a
+          >
+        </div>
+      </section>
+      <section class="we-are-different">
+        <div class="we-are-different__content">
+          <h2 class="we-are-different__title">We're Different</h2>
+          <p class="we-are-different__desc">
+            We grow and roast our own beans. Every bean, every cup, every step
+            of the way, we strive for excellence.
+          </p>
+          <div class="we-are-different__icons">
+            <img
+              src="assets/images/planting.svg"
+              alt="Crown icon"
+              class="we-are-different__icon"
+            />
+            <img
+              src="assets/images/coffee-beans.svg"
+              alt="Coffee bean icon"
+              class="we-are-different__icon"
+            />
+            <img
+              src="assets/images/coffee-cup.svg"
+              alt="Coffee cup icon"
+              class="we-are-different__icon"
+            />
+          </div>
+          <div class="button__container">
+            <a class="button button--third" href="/pages/menu.html"
+              >Learn More</a
+            >
+          </div>
+        </div>
+        <div class="we-are-different__image-container">
+          <img
+            src="assets/images/tilted-can.png"
+            alt="Nitro coffee can"
+            class="we-are-different__image"
+          />
+        </div>
       </section>
       <section class="main__discount">
         <p class="main__discount-text">
@@ -129,7 +190,7 @@
               alt="facebook"
             />
           </a>
-          <a class="footer__social-link" href="https://www.yelp.com/>
+          <a class="footer__social-link" href="https://www.yelp.com/">
             <img
               class="footer__social-icon"
               src="assets/images/yelp-icon.svg"
