@@ -1,0 +1,96 @@
+/* Hero */
+.header__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 85vh;
+  object-fit: cover;
+  z-index: -1;
+  filter: brightness(0.8);
+}
+.header__services-intro-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../assets/images/coffee-cta.jpg);
+  width: 100%;
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.header__services-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 2.875rem;
+  width: 100%;
+  height: 30%;
+  background-color: rgba(39, 34, 29, 0.4);
+  color: white;
+}
+
+.header__services-links {
+  font-size: 1.0625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #393939;
+  width: 100%;
+  height: 55px;
+  padding: 20px;
+}
+
+.header__services-links a {
+  padding: 0 20px;
+  border-left: #878976 solid 3px;
+  text-decoration: none;
+  color: white;
+}
+
+/* Main */
+.main__product > section {
+  text-align: center;
+  padding: 4rem;
+}
+
+.main__product > section:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+
+.main__product > section:nth-child(even) {
+  background-color: #fff;
+}
+
+.main__section-title {
+  padding-bottom: 20px;
+  font-size: 2.875rem;
+}
+
+.main__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__item-title {
+  padding: 5px;
+  font-size: 1.625rem;
+}
+
+.main__item-desc {
+  font-style: italic;
+  font-size: 1rem;
+  font-weight: 400;
+  width: 430px;
+}
+
+.main__item-price {
+  padding: 5px;
+  font-size: 1.1rem;
+  color: #848863;
+}

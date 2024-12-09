@@ -1,35 +1,43 @@
-/* General Styles for Navigation, Header, and Footer */
-nav,
-header > div,
-footer {
-  background-color: #fff0ed;
+/* Header */
+.header__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 85vh;
+  object-fit: cover;
+  z-index: -1;
+  filter: brightness(0.8);
 }
 
-/* Hero Section */
 .header__hero {
   width: 100%;
+  height: 73vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   padding: 2.5rem 6.25rem;
-  gap: 18.75rem;
+  gap: 10%;
 }
 
 .header__hero-content {
   display: flex;
   flex-direction: column;
-  width: 21.25rem;
+  width: 40%;
   gap: 1.875rem;
 }
 
 .header__hero-title {
   line-height: 0.75;
   font-size: 2.875rem;
+  color: #e0dfdb;
 }
 
 .header__hero-desc {
   font-size: 1rem;
+  color: #e0dfdb;
+  text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.2);
 }
 
 .header__hero-img {
@@ -38,12 +46,13 @@ footer {
 
 /* Main Product */
 .main__products {
-  background-color: #f7f7f7;
+  background-color: #e0dfdb;
   display: flex;
   flex-direction: column;
-  gap: 2.8125rem;
+  width: 100%;
+  gap: 4rem;
   align-items: center;
-  padding: 2.8125rem;
+  padding: 4rem 10rem;
 }
 
 .main__products-title {
@@ -53,53 +62,45 @@ footer {
 .main__products-list {
   display: flex;
   flex-direction: row;
-  gap: 4.375rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4rem;
 }
 
 .main__product {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  background-color: white;
-  width: 18.125rem;
-  border-radius: 0.625rem;
+  width: 20rem;
+  border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
   box-shadow: 0 0.3125rem 0.5625rem -0.0625rem rgba(0, 0, 0, 0.25);
-}
-
-.main__product__img-container {
-  height: 12.5rem;
-  margin: 1.875rem;
+  background-color: #878976;
+  color: #e0dfdb;
 }
 
 .main__product__img {
-  height: 100%;
+  border-radius: 0.3rem 0.3rem 0 0;
+  width: 100%;
 }
 
 .main__product__desc-container {
   display: flex;
-  flex-direction: row;
-  gap: 2.5rem;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  width: 100%;
-  background-color: #fff0ed;
-  padding: 2.5rem 0.3125rem;
-  border-radius: 0.625rem;
+  text-align: center;
+  padding: 3rem 0;
 }
 
 .main__product__title {
-  font-size: 1.75rem;
+  font-size: 1.7rem;
+  width: 90%;
+  padding-bottom: 1rem;
+  color: #2e2e2a;
 }
 
-.main__product__quantity {
-  font-size: 1rem;
-  color: #909090;
-}
-
-.main__product__price {
-  font-size: 1.75rem;
-  font-weight: 800;
-  color: #5bacc3;
+.main__product__treatment {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #cdcdcd;
 }
 
 /* we-are-different */
@@ -108,8 +109,8 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 20%;
-  padding: 7.5rem 3.125rem;
+  gap: 5%;
+  padding: 3.5rem 3rem;
 }
 
 .we-are-different__content {
@@ -131,7 +132,7 @@ footer {
 .we-are-different__icons {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  gap: 1.5rem;
 }
 
 .we-are-different__icon {
@@ -143,72 +144,61 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #fff0ed;
-  width: 21.875rem;
-  height: 21.875rem;
+  /* background-color: #fff0ed; */
+  width: 40%;
+  /* height: 40rem; */
 }
 
 .we-are-different__image {
-  width: 8.75rem;
+  width: 100%;
 }
 
 /* Main Discount */
 .main__discount {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  position: relative;
+  height: 30rem;
   align-items: center;
+  justify-content: center;
   text-align: center;
-  margin: 10.3125rem 0;
+  background-color: #393939bf;
+}
+
+.main__discount-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 
 .main__discount-text {
   font-size: 2.125rem;
-  padding: 1.875rem 4.5625rem;
-  background-color: #393939;
-  color: white;
+  color: #e0dfdb;
   font-weight: 400;
-}
-
-/* Button */
-.button {
-  text-align: center;
-  font-size: 1.0625rem;
-  background-color: #5bacc3;
-  color: white;
-  border: none;
-  width: 9.0625rem;
-  padding: 0.75rem;
-  margin: 0.3125rem 0;
-}
-
-/* Footer */
-.footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 6.25rem;
-  padding: 3.4375rem;
-}
-
-.footer__heading {
-  font-size: 1.625rem;
-  padding-bottom: 0.875rem;
-}
-
-.footer__text {
-  font-size: 1rem;
+  width: 90%;
 }
 
 .main__discount-code {
   font-weight: 700;
 }
 
-.footer__social-container {
-  display: flex;
-  flex-direction: row;
-  gap: 0.375rem;
+/* Button */
+.button {
+  text-align: center;
+  font-size: 1.0625rem;
+  background-color: hsla(26, 11%, 12%, 0.445);
+  color: #e0dfdb;
+  border: none;
+  width: 8.5rem;
+  padding: 0.75rem;
+  margin: 0.3125rem 0;
 }
 
-.footer__social-icon {
-  width: 2.5rem;
+.button--third {
+  color: white;
 }
