@@ -2,7 +2,7 @@
 @use "./partials/mixins" as *;
 @use "./partials/variables" as *;
 
-/* Hero */
+// Hero
 .header {
   &__video {
     position: absolute;
@@ -60,7 +60,7 @@
   }
 }
 
-/* Main */
+// Main
 .main__product {
   & > section {
     text-align: center;

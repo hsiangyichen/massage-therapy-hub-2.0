@@ -114,7 +114,6 @@ a {
   width: 2.5rem;
 }
 
-/* Header */
 .header__video {
   position: absolute;
   top: 0;
@@ -156,7 +155,6 @@ a {
   width: 14.6875rem;
 }
 
-/* Main Product */
 .main__products {
   background-color: #e0dfdb;
   display: flex;
@@ -209,7 +207,6 @@ a {
   color: #cdcdcd;
 }
 
-/* we-are-different */
 .we-are-different {
   display: flex;
   flex-direction: row;
@@ -244,15 +241,12 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* background-color: #fff0ed; */
   width: 40%;
-  /* height: 40rem; */
 }
 .we-are-different__image {
   width: 100%;
 }
 
-/* Main Discount */
 .main__discount {
   display: flex;
   flex-direction: column;

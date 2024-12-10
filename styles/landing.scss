@@ -2,7 +2,7 @@
 @use "./partials/mixins" as *;
 @use "./partials/variables" as *;
 
-/* Header */
+// Header
 .header {
   &__video {
     position: absolute;
@@ -50,7 +50,7 @@
   }
 }
 
-/* Main Product */
+// Main Product
 .main__products {
   background-color: #e0dfdb;
   display: flex;
@@ -109,7 +109,7 @@
   }
 }
 
-/* we-are-different */
+// we-are-different
 .we-are-different {
   display: flex;
   flex-direction: row;
@@ -149,9 +149,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* background-color: #fff0ed; */
     width: 40%;
-    /* height: 40rem; */
   }
 
   &__image {
@@ -159,7 +157,7 @@
   }
 }
 
-/* Main Discount */
+// Main Discount
 .main__discount {
   display: flex;
   flex-direction: column;
