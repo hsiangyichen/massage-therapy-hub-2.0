@@ -1,0 +1,241 @@
+@use "./partials/global" as *;
+@use "./partials/mixins" as *;
+@use "./partials/variables" as *;
+
+/* Header */
+.header {
+  &__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85vh;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(0.8);
+  }
+
+  &__hero {
+    width: 100%;
+    height: 73vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5rem 6.25rem;
+    gap: 10%;
+
+    &-content {
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+      gap: 1.875rem;
+    }
+
+    &-title {
+      line-height: 0.75;
+      font-size: 2.875rem;
+      color: #e0dfdb;
+    }
+
+    &-desc {
+      font-size: 1rem;
+      color: #e0dfdb;
+      text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.2);
+    }
+
+    &-img {
+      width: 14.6875rem;
+    }
+  }
+}
+
+/* Main Product */
+.main__products {
+  background-color: #e0dfdb;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 4rem;
+  align-items: center;
+  padding: 4rem 10rem;
+
+  &-title {
+    font-size: 2.875rem;
+  }
+
+  &-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+  }
+}
+
+.main__product {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+  box-shadow: 0 0.3125rem 0.5625rem -0.0625rem rgba(0, 0, 0, 0.25);
+  background-color: #878976;
+  color: #e0dfdb;
+
+  &__img {
+    border-radius: 0.3rem 0.3rem 0 0;
+    width: 100%;
+  }
+
+  &__desc-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 3rem 0;
+  }
+
+  &__title {
+    font-size: 1.7rem;
+    width: 90%;
+    padding-bottom: 1rem;
+    color: #2e2e2a;
+  }
+
+  &__treatment {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #cdcdcd;
+  }
+}
+
+/* we-are-different */
+.we-are-different {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+  padding: 3.5rem 3rem;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.875rem;
+    width: 30%;
+  }
+
+  &__title {
+    line-height: 0.75;
+    font-size: 2.875rem;
+  }
+
+  &__desc {
+    font-size: 1rem;
+  }
+
+  &__icons {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+
+  &__icon {
+    width: 3.125rem;
+  }
+
+  &__image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #fff0ed; */
+    width: 40%;
+    /* height: 40rem; */
+  }
+
+  &__image {
+    width: 100%;
+  }
+}
+
+/* Main Discount */
+.main__discount {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  height: 30rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #393939bf;
+
+  &-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+  &-text {
+    font-size: 2.125rem;
+    color: #e0dfdb;
+    font-weight: 400;
+    width: 90%;
+  }
+
+  &-code {
+    font-weight: 700;
+  }
+}
+
+// Button
+.button {
+  text-align: center;
+  font-size: 1.0625rem;
+  background-color: hsla(26, 11%, 12%, 0.445);
+  color: #e0dfdb;
+  border: none;
+  width: 8.5rem;
+  padding: 0.75rem;
+  margin: 0.3125rem 0;
+  position: relative;
+  top: 0.25rem;
+  width: 9rem;
+  height: 3rem;
+  &__link {
+    font-size: 1.0625rem;
+    width: 9rem;
+    height: 3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  &__border {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid #2e2e2a;
+    width: 9rem;
+    height: 3rem;
+    position: absolute;
+    top: -0.25rem;
+    left: -0.25rem;
+  }
+
+  &__link:active .button__border {
+    top: 0;
+    left: 0;
+  }
+
+  &--third {
+    color: white;
+  }
+}

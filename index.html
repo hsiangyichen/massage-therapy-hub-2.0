@@ -7,8 +7,7 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
       rel="stylesheet"
     />
-    <link href="./css/global.css" rel="stylesheet" />
-    <link href="./css/landing.css" rel="stylesheet" />
+    <link href="./styles/landing.css" rel="stylesheet" />
     <title>Massage Therapy - Home</title>
   </head>
   <body>
@@ -47,9 +46,11 @@
             Experience relaxation like never before with our tailored massage
             services, designed to rejuvenate your body and mind.
           </p>
-          <a class="button button--primary" href="/pages/services.html"
-            >BOOK NOW</a
-          >
+          <div class="button button--primary">
+            <a class="button__link" href="/pages/services.html">
+              <div class="button__border"><p>BOOK NOW</p></div></a
+            >
+          </div>
         </div>
         <div class="header__hero-img-container">
           <img
@@ -101,9 +102,11 @@
             </div>
           </article>
         </div>
-        <a class="button button--secondary" href="/pages/services.html"
-          >VIEW ALL</a
-        >
+        <div class="button button--secondary">
+          <a class="button__link" href="/pages/services.html">
+            <div class="button__border"><p>VIEW ALL</p></div></a
+          >
+        </div>
       </section>
       <section class="we-are-different">
         <div class="we-are-different__content">
@@ -129,10 +132,11 @@
               class="we-are-different__icon"
             />
           </div>
-
-          <a class="button button--third" href="/pages/services.html"
-            >Learn More</a
-          >
+          <div class="button button--third">
+            <a class="button__link" href="/pages/services.html">
+              <div class="button__border"><p>Learn More</p></div></a
+            >
+          </div>
         </div>
         <div class="we-are-different__image-container">
           <img

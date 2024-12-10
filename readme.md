@@ -26,7 +26,7 @@ Welcome to the Serenity Massage Therapy Hub! This project is a modern and user-f
 ## Technologies Used
 
 - **HTML5**: For the structure and content of the website.
-- **CSS3**: For styling, including global styles and responsive design.
+- **SCSS**: To provide a modern and maintainable styling approach.
 
 ---
 
@@ -38,4 +38,6 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/hsiangyichen/massage-therapy-hub.git
    ```
-2. Open the `index.html` file in your browser to view the site.
+2. Watch sass: Install Live Sass Compiler extension to watch sass
+
+3. Open the `index.html` file in your browser to view the site.
